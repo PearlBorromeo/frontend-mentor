@@ -5,6 +5,10 @@
   --slate-900: hsl(218, 44%, 22%);
 }
 
+* {
+  margin: 0;
+}
+
 body {
   position: relative;
   font-family: "Outfit", sans-serif;
@@ -15,12 +19,12 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  margin: 0;
 }
 
 .qr-card {
   background-color: var(--white);
-  width: 290px;
+  max-width: 290px;
+  width: 90%;
   padding: 16px;
   border-radius: 22px;
 }
@@ -59,11 +63,14 @@ body {
 
 .home img {
   width: 20px;
-  transition: width 300ms;
+  transition:
+    transform 300ms,
+    transform-origin 300ms;
 }
 
 .home img:hover {
-  width: 40px;
+  transform: scale(2);
+  transform-origin: bottom right;
 }
 
 .attribution {
