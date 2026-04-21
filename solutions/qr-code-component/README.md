@@ -22,5 +22,4 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ## Author
 
-- Website - (underconstruction)
 - Frontend Mentor - [@PearlBorromeo](https://www.frontendmentor.io/profile/PearlBorromeo)

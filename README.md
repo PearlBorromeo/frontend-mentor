@@ -9,9 +9,10 @@ This is a compilation of my solutions to [Frontend Mentor Challenges](https://ww
 
 ## Solutions
 
--[QR Code Component]()
+- [QR Code Component](https://pearlborromeo.github.io/frontend-mentor/solutions/qr-code-component/index.html)
 
 ## Author
 
-- Website - (underconstruction)
+- GitHub - [@PearlBorromeo](https://github.com/PearlBorromeo)
 - Frontend Mentor - [@PearlBorromeo](https://www.frontendmentor.io/profile/PearlBorromeo)
+- LinkedIn - [@PearlBorromeo](https://www.linkedin.com/in/pearlborromeo/)
