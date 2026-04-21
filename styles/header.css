@@ -1,0 +1,27 @@
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  padding: 20px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.header-left-section, 
+.header-right-section {
+  display: flex;
+  align-items: center;
+}
+
+.header-right-section {
+  gap: 14px;
+}
+
+.logo {
+  width: 160px;
+}
+
+.header-icon {
+  width: 20px;
+}

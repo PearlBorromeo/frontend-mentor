@@ -1,0 +1,125 @@
+.solutions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 40px;
+  margin: 30px;
+}
+
+.solution-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  height: auto;
+  overflow: hidden;
+  box-shadow: 1px 1px 6px rgba(75, 75, 75, 0.2);
+  transition: box-shadow 250ms ease 100ms;
+}
+
+.solution-card:hover {
+  box-shadow: 1px 1px 12px rgba(75, 75, 75, 0.3);
+}
+
+.solution-thumbnail-container {
+  position: relative;
+}
+
+.solution-img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.difficulty-level {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px 10px;
+  font-size: var(--font-size-smaller);
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+.newbie {
+  color: var(--newbie-color);
+  background-color: var(--newbie-background-color);
+  border: 1px solid var(--newbie-border-color);
+}
+
+.junior {
+  color: var(--junior-color);
+  background-color: var(--junior-background-color);
+  border: 1px solid var(--junior-border-color);
+}
+
+.intermediate {
+  color: var(--intermediate-color);
+  background-color: var(--intermediate-background-color);
+  border: 1px solid var(--intermediate-border-color);
+}
+
+.advanced {
+  color: var(--advanced-color);
+  background-color: var(--advanced-background-color);
+  border: 1px solid var(--advanced-border-color);
+}
+
+.guru {
+  color: var(--guru-color);
+  background-color: var(--guru-background-color);
+  border: 1px solid var(--guru-border-color);
+}
+
+.solution-info {
+  margin: 12px 24px;
+}
+
+.solution-title {
+  margin: 12px auto;
+}
+
+.solution-description {
+  font-size: var(--font-size-small);
+}
+
+.tech-stack {
+  list-style-type: none;
+  margin: 12px auto;
+}
+
+.tech-stack li {
+  display: inline-block;
+  padding: 4px 8px;
+  margin: auto 2px;
+  border-radius: 4px;
+  background-color: rgba(75, 75, 75, 0.1);
+  font-size: var(--font-size-smallest);
+}
+
+.solution-link-container {
+  display: flex;
+  margin: 12px auto;
+  padding: 0;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.live-demo-link,
+.github-src-link {
+  display: flex;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background-color: rgba(42, 42, 42, 0.4);
+  justify-content: center;
+  column-gap: 6px;
+  color: var(--white);
+  font-size: var(--font-size-small);
+}
+
+.live-demo-link {
+  flex: 2;
+  background-color: var(--color-primary);
+}
+
+.github-src-link {
+  background-color: black;
+}

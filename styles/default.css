@@ -1,0 +1,141 @@
+@import "./header.css";
+@import "./grid.css";
+@import "./footer.css";
+
+:root {
+  --font-primary: "Heebo", sans-serif;
+
+  --font-color-primary: rgb(65, 65, 65);
+
+  --font-size: 16px;
+  --font-size-smallest: 10px;
+  --font-size-smaller: 12px;
+  --font-size-small: 14px;
+  --font-size-big: 18px;
+  --font-size-bigger: 22px;
+  --font-size-biggest: 32px;
+
+  --color-primary: rgb(24, 119, 242);
+  --color-transparent: rgb(24, 119, 242, 0.2);
+  --color-dark: rgb(16, 64, 126);
+
+  --white: rgb(255, 255, 255);
+
+  --newbie-color: rgb(5, 128, 149);
+  --newbie-background-color: rgba(6, 182, 212, 0.16);
+  --newbie-border-color: rgba(6, 182, 212, 0.3);
+
+  --junior-color: rgb(37, 148, 108);
+  --junior-background-color: rgba(52, 211, 153, 0.16);
+  --junior-border-color: rgba(52, 211, 153, 0.3);
+
+  --intermediate-color: rgb(176, 134, 26);
+  --intermediate-background-color: rgba(251, 191, 36, 0.16);
+  --intermediate-border-color: rgba(251, 191, 36, 0.3);
+
+  --advanced-color: rgb(175, 81, 16);
+  --advanced-background-color: rgba(249, 115, 22, 0.16);
+  --advanced-border-color: rgba(249, 115, 22, 0.3);
+
+  --guru-color: rgb(158, 21, 51);
+  --guru-background-color: rgba(225, 29, 72, 0.16);
+  --guru-border-color: rgba(225, 29, 72, 0.3);
+
+  --h1-font-size: 28px;
+  --h2-font-size: 24px;
+  --h3-font-sizr: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font: var(--font-size) var(--font-primary);
+  color: var(--font-color-primary);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  font-weight: 500;
+  color: var(--color-dark);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+  font-weight: 500;
+  color: var(--color-dark);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+  font-weight: 500;
+  color: var(--color-dark);
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero,
+.counter-cards,
+.solutions {
+  margin: 100px 30px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.link-button {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: var(--color-transparent);
+}
+
+.icon-small {
+  width: 18px;
+}
+
+.link-title {
+  font-size: var(--font-size-small);
+  color: var(--color-primary);
+}
+
+.hero-title {
+  text-align: center;
+  margin: 30px;
+}
+
+.hero-description {
+  text-align: center;
+  margin: 30px;
+  font-size: var(--font-size-big);
+}
+
+.counter-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.counter-card {
+  text-align: center;
+  padding: 20px 10px;
+  width: 25%;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid red; */
+}
+
+.card-counter {
+  font-size: var(--font-size-biggest);
+  color: var(--color-primary);
+}
+
+.solutions-title,
+.solutions-description {
+  margin: 16px 30px;
+}
