@@ -22,8 +22,7 @@ body {
 
 .qr-card {
   background-color: var(--white);
-  max-width: 17rem;
-  width: 80%;
+  width: clamp(10ch, 80%, 17rem);
   padding: 1em;
   border-radius: 1.25em;
 }
@@ -50,12 +49,12 @@ body {
 
 .home {
   position: absolute;
-  bottom: 0.5rem;
-  right: 0.5rem;
+  bottom: 0.5px;
+  right: 0.5em;
 }
 
 .home img {
-  width: 20px;
+  width: 1.25rem;
   transition: transform 300ms;
   transform-origin: bottom right;
 }
