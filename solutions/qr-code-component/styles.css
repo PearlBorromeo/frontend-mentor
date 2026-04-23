@@ -40,10 +40,10 @@ body {
 .qr-tag {
   font-size: 1.5em;
   font-weight: 700;
-  margin-bottom: 1rem;
 }
 
 .qr-description {
+  margin-top: 1rem;
   color: var(--slate-500);
 }
 
@@ -55,12 +55,16 @@ body {
 
 .home img {
   width: 1.25rem;
-  transition: transform 300ms;
-  transform-origin: bottom right;
 }
 
-.home img:hover {
-  transform: scale(2);
+@media (prefers-reduced-motion: no-preference) {
+  .home img {
+    transition: transform 300ms;
+    transform-origin: bottom right;
+  }
+  .home img:hover {
+    transform: scale(2);
+  }
 }
 
 .attribution {
