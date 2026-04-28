@@ -1,6 +1,6 @@
 # Frontend Mentor - QR Code Component Solution
 
-This is my solution to the [Blog Preview Card](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
+This is my solution to the [Blog Preview Card](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) challenge on Frontend Mentor.
 
 ## Table of contents
 
