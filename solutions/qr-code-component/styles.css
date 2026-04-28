@@ -17,7 +17,7 @@ body {
   min-height: 100vh;
   background-color: var(--slate-300);
   font-family: "Outfit", sans-serif;
-  font-size: 0.85em;
+  font-size: 0.85rem;
 }
 
 .qr-card {
@@ -38,7 +38,7 @@ body {
 }
 
 .qr-tag {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -49,8 +49,8 @@ body {
 
 .home {
   position: absolute;
-  bottom: 0.5px;
-  right: 0.5em;
+  bottom: 0.5rem;
+  right: 0.5rem;
 }
 
 .home img {
